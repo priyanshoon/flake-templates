@@ -3,7 +3,7 @@
   outputs =
     { self }:
     {
-      templates = rec {
+      templates = {
         c = {
           path = ./c;
           description = "C project environment";
