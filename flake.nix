@@ -8,6 +8,10 @@
           path = ./c;
           description = "C project environment";
         };
+        cpp = {
+          path = ./cpp;
+          description = "Cpp project environment";
+        };
       };
     };
 }
