@@ -12,6 +12,11 @@
           path = ./cpp;
           description = "Cpp project environment";
         };
+
+        python-postgresql = {
+            path = ./python-postgresql;
+            description = "python & postgresql development environment";
+        };
       };
     };
 }
